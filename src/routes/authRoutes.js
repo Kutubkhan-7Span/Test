@@ -7,7 +7,7 @@ const authController = new AuthController();
 const setAuthRoutes = (app) => {
     router.post('/register', authController.register);
     router.post('/login', authController.login);
-    req.body.userRepositoryId
+
     app.use('/api/auth', router);
 };
 
