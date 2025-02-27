@@ -6,7 +6,6 @@ const authController = new AuthController();
 
 const setAuthRoutes = (app) => {
     router.post('/register', authController.register);
-
     app.use('/api/auth', router);
 };
 
